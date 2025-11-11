@@ -2,4 +2,4 @@ User-agent: *
 
 Allow: /
 
-Sitemap: https://페이24.kr/sitemap.xml
+Sitemap: https://xn--24-9o2bkr9p.kr/sitemap.xml
