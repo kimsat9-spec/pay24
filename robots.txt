@@ -2,4 +2,4 @@ User-agent: *
 
 Allow: /
 
-Sitemap: https://xn--24-vz8j541b.kr/sitemap.xml
+Sitemap: https://xn--24-vz8j541b.kr/
