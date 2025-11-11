@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>페이24 - 신용카드 현금화 전문 서비스</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 헤더 -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="logo">
+                <svg class="logo-icon" viewBox="0 0 120 24" xmlns="http://www.w3.org/2000/svg">
+                    <!-- 카드 배경 -->
+                    <rect x="0" y="0" width="24" height="16" rx="2.5" fill="#f59e0b"/>
+                    <!-- 달러 기호 (중앙) -->
+                    <text x="12" y="12" font-family="Arial, sans-serif" font-size="12" font-weight="900" fill="#ffffff" text-anchor="middle" dominant-baseline="central">$</text>
+                    <!-- PAY24 텍스트 -->
+                    <text x="28" y="13" font-family="Arial, sans-serif" font-size="12" font-weight="900" fill="#f59e0b" letter-spacing="0.3">PAY24</text>
+                </svg>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">홈</a></li>
+                <li><a href="#service">서비스</a></li>
+                <li><a href="#features">특징</a></li>
+                <li><a href="#process">이용방법</a></li>
+                <li><a href="#contact">문의</a></li>
+            </ul>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- 히어로 섹션 -->
+    <section id="home" class="hero">
+        <div class="hero-content container">
+            <div class="hero-text">
+                <h2 class="hero-title">빠르고 안전한<br>신용카드 현금화</h2>
+                <p class="hero-subtitle">24시간 언제든지, 간편한 절차로<br>신용카드를 현금으로 전환하세요</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">무료 상담 신청</a>
+                    <a href="#service" class="btn btn-secondary">서비스 알아보기</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">10만+</div>
+                        <div class="stat-label">누적 고객</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">99.9%</div>
+                        <div class="stat-label">만족도</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">24시간</div>
+                        <div class="stat-label">상담 가능</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-logo-wrapper">
+                    <svg class="hero-logo" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+                        <!-- 카드 배경 -->
+                        <rect x="0" y="10" width="50" height="35" rx="5" fill="#f59e0b" stroke="#d97706" stroke-width="2"/>
+                        <!-- 달러 기호 (중앙) -->
+                        <text x="25" y="32" font-family="Arial, sans-serif" font-size="22" font-weight="900" fill="#ffffff" text-anchor="middle" dominant-baseline="central">$</text>
+                        <!-- PAY24 텍스트 -->
+                        <text x="60" y="35" font-family="Arial, sans-serif" font-size="26" font-weight="900" fill="#f59e0b" letter-spacing="1">PAY24</text>
+                    </svg>
+                </div>
+                <div class="card-visual">
+                    <div class="card-icon">💳</div>
+                    <div class="arrow">→</div>
+                    <div class="cash-icon">💰</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 서비스 소개 -->
+    <section id="service" class="service">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">페이24 서비스</h2>
+                <p class="section-subtitle">신용카드 현금화의 새로운 기준을 제시합니다</p>
+            </div>
+            <div class="service-grid">
+                <div class="service-card">
+                    <div class="service-icon">⚡</div>
+                    <h3>빠른 처리</h3>
+                    <p>신청 후 최단 시간 내에 현금으로 전환해드립니다. 복잡한 절차 없이 간편하게 이용하세요.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🔒</div>
+                    <h3>안전한 거래</h3>
+                    <p>엄격한 보안 시스템으로 개인정보를 안전하게 보호합니다. 믿을 수 있는 서비스입니다.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💼</div>
+                    <h3>전문 상담</h3>
+                    <p>경험이 풍부한 전문 상담사가 고객님의 상황에 맞는 최적의 솔루션을 제안해드립니다.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📱</div>
+                    <h3>간편한 신청</h3>
+                    <p>복잡한 서류 준비 없이 온라인으로 간단하게 신청할 수 있습니다. 언제 어디서나 가능합니다.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 주요 특징 -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">왜 페이24를 선택해야 할까요?</h2>
+                <p class="section-subtitle">다른 서비스와 차별화된 페이24만의 특별한 장점</p>
+            </div>
+            <div class="features-content">
+                <div class="feature-item">
+                    <div class="feature-number">01</div>
+                    <div class="feature-text">
+                        <h3>최저 수수료</h3>
+                        <p>시장 최저 수준의 수수료로 부담 없이 이용하실 수 있습니다. 숨겨진 비용은 없습니다.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-number">02</div>
+                    <div class="feature-text">
+                        <h3>24시간 운영</h3>
+                        <p>주말, 공휴일 구분 없이 24시간 언제든지 상담 및 신청이 가능합니다.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-number">03</div>
+                    <div class="feature-text">
+                        <h3>빠른 입금</h3>
+                        <p>승인 후 즉시 입금 처리되어 빠르게 현금을 사용하실 수 있습니다.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-number">04</div>
+                    <div class="feature-text">
+                        <h3>신용도 영향 없음</h3>
+                        <p>신용카드 현금화는 신용등급에 영향을 주지 않아 안심하고 이용하실 수 있습니다.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 이용 방법 -->
+    <section id="process" class="process">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">간단한 3단계 이용방법</h2>
+                <p class="section-subtitle">복잡한 절차 없이 3단계로 끝나는 간편한 프로세스</p>
+            </div>
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>온라인 신청</h3>
+                        <p>홈페이지 또는 전화로 간단히 신청하세요. 필요한 정보만 입력하면 됩니다.</p>
+                    </div>
+                </div>
+                <div class="step-arrow">→</div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>상담 및 승인</h3>
+                        <p>전문 상담사가 연락드려 상세 상담 후 빠르게 승인해드립니다.</p>
+                    </div>
+                </div>
+                <div class="step-arrow">→</div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>현금 입금</h3>
+                        <p>승인 완료 후 지정하신 계좌로 즉시 입금 처리해드립니다.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 문의 섹션 -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-cards-wrapper">
+                <!-- 전화 상담 카드 -->
+                <div class="contact-card contact-card-phone">
+                    <div class="contact-card-content">
+                        <h3 class="contact-card-title">페이24 친절상담 대기중</h3>
+                        <p class="contact-card-subtitle">365일 24시간 언제든지 상담해드립니다.</p>
+                        <div class="contact-card-divider contact-card-divider-yellow"></div>
+                        <div class="contact-card-phone-number contact-card-phone-number-yellow">
+                            <div>010-5573-5593</div>
+                            <div>010-5551-7037</div>
+                        </div>
+                    </div>
+                    <a href="tel:01055735593" class="contact-card-button contact-card-button-yellow">
+                        <span class="button-icon">📞</span>
+                        <span class="button-text">상담전화<br>바로걸기</span>
+                    </a>
+                </div>
+                
+                <!-- 카드 연결 요소 -->
+                <div class="contact-card-connector"></div>
+                
+                <!-- 문자 상담 카드 -->
+                <div class="contact-card contact-card-text">
+                    <div class="contact-card-content">
+                        <h3 class="contact-card-title">페이24 친절상담 대기중</h3>
+                        <p class="contact-card-subtitle">365일 24시간 언제든지 상담해드립니다.</p>
+                        <div class="contact-card-divider contact-card-divider-white"></div>
+                        <div class="contact-card-phone-number contact-card-phone-number-dark">
+                            <div>010-5573-5593</div>
+                            <div>010-5551-7037</div>
+                        </div>
+                    </div>
+                    <a href="sms:01055735593" class="contact-card-button contact-card-button-dark">
+                        <span class="button-icon">💬</span>
+                        <span class="button-text">문자상담<br>바로연결</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 푸터 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>페이24</h3>
+                    <p>신용카드 현금화 전문 서비스</p>
+                </div>
+                <div class="footer-section">
+                    <h4>서비스</h4>
+                    <ul>
+                        <li><a href="#service">서비스 소개</a></li>
+                        <li><a href="#features">주요 특징</a></li>
+                        <li><a href="#process">이용방법</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>고객지원</h4>
+                    <ul>
+                        <li><a href="#contact">상담 신청</a></li>
+                    </ul>
+                    <div class="footer-contact-info">
+                        <div class="footer-contact-item">
+                            <div class="footer-contact-label">전화</div>
+                            <div class="footer-contact-number">010-5573-5593</div>
+                            <div class="footer-contact-number">010-5551-7037</div>
+                        </div>
+                        <div class="footer-contact-item">
+                            <div class="footer-contact-label">문자상담</div>
+                            <div class="footer-contact-number">010-5573-5593</div>
+                            <div class="footer-contact-number">010-5551-7037</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 페이24. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 고정 문의 위젯 -->
+    <div class="floating-contact-widget">
+        <a href="tel:01055735593" class="contact-widget-top">
+            <div class="widget-header">
+                <span class="widget-phone-icon">📞</span>
+                <span class="widget-text">고객센터</span>
+            </div>
+            <div class="widget-divider"></div>
+            <div class="widget-phone-number">
+                <div>010-5573-5593</div>
+                <div>010-5551-7037</div>
+            </div>
+        </a>
+        <a href="sms:01055735593" class="contact-widget-bottom">
+            <div class="widget-header-bottom">
+                <span class="widget-chat-icon">💬</span>
+                <span class="widget-text-dark">문자상담</span>
+            </div>
+            <div class="widget-divider-bottom"></div>
+            <div class="widget-envelope-icon">✉️</div>
+            <div class="widget-text-bottom">
+                <div>문자상담</div>
+                <div>바로연결</div>
+            </div>
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
